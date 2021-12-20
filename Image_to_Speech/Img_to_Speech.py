@@ -7,7 +7,7 @@ from gtts import gTTS
 # the OS module in Python provides functions for interacting with the operating system
 import os
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Users\Soubhav\Desktop\tesseract\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 img = Image.open("text 1.jpg")
 
 # getting text from the image
